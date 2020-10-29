@@ -39,7 +39,8 @@ Grey dark 3: #999
 }
 
 *::after,
-*::before {
+*::before,
+* {
   box-sizing: inherit;
 }
 
@@ -60,6 +61,5 @@ body {
   );
   background-size: cover;
   background-repeat: no-repeat;
-
   min-height: 100vh;
 }

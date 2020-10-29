@@ -7,9 +7,13 @@
 }
 
 .header {
+  font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
   border-bottom: var(--color-grey--light-2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .content {
@@ -18,11 +22,11 @@
 
 .sidebar {
   background-color: var(--color-grey--dark-1);
-  flex: 0 0 18%;
+  flex: 0 0 18%; // Occupy 18% of the width of flex container
 }
 
 .hotel-view {
   background-color: #fff;
   background-color: orangered;
-  flex: 1;
+  flex: 1; // Occupy as much as possible
 }
